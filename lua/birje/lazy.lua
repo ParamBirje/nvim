@@ -15,9 +15,14 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup("birje.plugins", {
+  -- check plugin updates
+  checker = {
+    enabled = true,
+    notify = false,
+  },
 
   -- disables the 'change detected, press enter to reload' dialog
-  change_notification = {
+  change_detection = {
     notify = false,
   },
 
