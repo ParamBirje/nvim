@@ -24,7 +24,6 @@ return {
       ensure_installed = {
         "json",
         "javascript",
-        "jsx",
         "typescript",
         "tsx",
         "yaml",
@@ -42,7 +41,6 @@ return {
         "query",
         "vimdoc",
         "c",
-        "golang",
       },
 
       incremental_selection = {

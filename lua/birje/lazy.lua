@@ -14,7 +14,10 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup("birje.plugins", {
+require("lazy").setup({
+  { import = "birje.plugins" },
+  { import = "birje.plugins.lsp" }
+}, {
   -- check plugin updates
   checker = {
     enabled = true,
