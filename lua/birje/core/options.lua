@@ -38,5 +38,6 @@ opt.signcolumn = "yes" -- show sign col so text doesnt shift
 
 -- // SPLIT WINDOWS
 
+-- Default direction for splitting
 opt.splitright = true
 opt.splitbelow = true
