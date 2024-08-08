@@ -26,6 +26,7 @@ opt.cursorline = true -- highlights the current cursor line
 opt.backspace = "indent,eol,start" -- allow backspace on indent, end of line or insert mode start pos
 
 -- use system clipboard as def
+-- Make sure to have xclip installed
 opt.clipboard:append("unnamedplus")
 
 -- // APPEARANCE
