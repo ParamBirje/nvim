@@ -14,3 +14,5 @@ Includes support for formatters, linters, lsps for the following languages.
 # Pre-requisites
 
 Find guides for installing other package dependencies [here](https://github.com/nvim-lua/kickstart.nvim?tab=readme-ov-file#install-recipes).
+
+Install under `~/.config/nvim`
